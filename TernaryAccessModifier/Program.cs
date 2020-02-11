@@ -27,6 +27,7 @@ namespace TernaryAccessModifier {
             //var order1 = new Order { Id = 1, Amount = 1000, Customer = cust1};since added in order
             //have to change to 
             var order1= new Order { Amount = 1000, Customer = cust1 };
+
             var order2 = new Order { Amount = 300, Customer = cust2 };
 
             static int cubed(int nbr) {
